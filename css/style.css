@@ -1,3 +1,15 @@
 body{
-    background-color:red;
 }
+
+
+.all{
+    border: 5px solid black;
+}
+
+.up_down{
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+
+}
+
+
