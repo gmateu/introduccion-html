@@ -1,15 +1,6 @@
-body{
-}
-
-
-.all{
-    border: 5px solid black;
-}
-
-.up_down{
-    border-top: 5px solid black;
-    border-bottom: 5px solid black;
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Raleway', sans-serif;
 
 }
-
-
