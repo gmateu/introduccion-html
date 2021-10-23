@@ -3,7 +3,39 @@
     padding: 0;
 }
 
-p{
+a,a:visited{
+    text-decoration: none;
+}
+
+header{
+    margin-top: 0;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+
+nav{
+    top:-20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800;
+}
+
+nav > ul{
+    display: table;
+    width: 100%;
+    background-color: #000;
+}
+
+
+
+
+
+.nom{
     font-family: 'Raleway', sans-serif;
     margin: 1.66%;
     font-size: 23px;
@@ -24,7 +56,7 @@ img{
         width: 46%;
         margin: 1%;
     }
-    p{
+    .nom{
         width: 40%;
     }
 }
@@ -35,7 +67,7 @@ img{
         margin: 1%;
     }
 
-    p{
+    .nom{
         width: 52%;
     }
 }
