@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+p{
+    color:green;
+}
+
+
+#main .articulo{ /*MAS ESPECIFICA*/
+    color:#f77f00;
+}
+
+input[type="text"]{
+    color:red;
+}
+
+span:hover{
+    background-color: thistle;
+    font-size: 33px;
+    cursor: pointer;
+    color: #f77f00;
+}
+:active
+:checked
+:first
+:first-child
+:hover
+:not()
+:nth-child()
+:nth-of-type()
