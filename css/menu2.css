@@ -1,3 +1,10 @@
+:root{
+    --main-color:#e2988a;
+    --hover-color:#883726;
+    --font-color:#ffffff;
+    --active-color:#f15637;
+}
+
 *{
     margin:0;
     padding: 0;
@@ -12,7 +19,7 @@ a{
 }
 
 header{
-    background-color: #fec5bb;
+    background-color:var(--main-color);
     width: 100%;
 }
 
@@ -29,7 +36,9 @@ nav ul{
 nav ul li{
     display: table-cell;
     width: 25%;
-    height: 5vh;
+    height: 30px;
+    background-color:var(--main-color);
+
 }
 
 nav ul li a{
@@ -39,11 +48,54 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    background-color: blue;
-    color:white;
+    background-color: var(--hover-color);
+    color:var(--font-color);
     height: 100%;
 }
 
 .active{
-    background-color: red;
+    background-color: var(--active-color);
+}
+
+.show{
+    display: block;
+}
+
+@media screen and (max-width: 411px) {
+    body{
+    }
+
+    nav{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #menu-header{
+        display: none;
+    }
+    
+    .hamburguer {
+        background-color: var(--backgroud-color);
+        width: 2em;
+        height: 2em;
+        margin: 3em;
+        z-index: 1;
+        cursor: pointer;
+    }
+    .lines {
+        background-color: white;
+        width: 100%;
+        height: 5px;
+        margin: 5px 0;
+        
+    }
+
+    
+
+
+
+    nav ul li{
+        display: list-item;
+        width: 100%;
+    }
 }
